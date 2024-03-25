@@ -1,0 +1,5 @@
+{% for t in totorotuesday %}
+    <div class="card mb-1 ms-1" style="width: 8rem;">
+        <img src="{{ config.IMAGE_FOLDER }}/{{ t.name }}" class="card-img-top" alt="{{ t.name}}" data-tags="{% for tag in t.tags %}{{ tag.id }}{% if not loop.last %},{% endif %}{% endfor %}">
+    </div>
+{% endfor %}

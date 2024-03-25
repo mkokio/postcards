@@ -1,0 +1,8 @@
+<h5>Filters</h3>
+    {% for tag in tags %}
+        <div class="form-check form-switch">
+            <input class="tag-checkbox" type="checkbox" id="tag_{{ tag.id }}" name="tags[]" value="{{ tag.id }}">
+            <label class="tag-checkbox-label" for="tag_{{ tag.id }}">{{ tag.name.capitalize() }}</label>
+        </div>
+    {% endfor %}
+    

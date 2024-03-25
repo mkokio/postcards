@@ -1,0 +1,49 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# Generated files
+instance/
+*.log
+*.pot
+*.pyc
+*.swp
+*.sqlite
+*.db
+
+# User-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+
+# Dependency directories
+venv/
+env/
+
+# Images
+static/images/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

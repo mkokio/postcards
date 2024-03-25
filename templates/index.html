@@ -1,0 +1,14 @@
+    {% extends "layout.html" %}
+
+    {% block body %}
+    <div class="container" >
+        <div class="row">
+          <div class="col-auto bg-light">
+            {% include "filter.html" %}
+          </div>
+          <div class="col">
+            {% include "images.html" %}
+          </div>
+        </div>
+      </div>
+    {% endblock %}
